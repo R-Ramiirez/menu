@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="fondo_app">#3D837D</color> <!-- Un tono claro que complementa el amarillo verdoso -->
+    <color name="lightBlue">#87CEEB</color> <!-- Sky Blue -->
+    <color name="pastelBackground">#FFEFD5</color> <!-- Papaya Whip -->
+    <color name="calipso">#59C1BD</color> <!-- Este es un tono calipso, puedes ajustarlo si lo deseas -->
+    <color name="amarillo_verdoso">#C9DF2A</color> <!-- Puedes ajustar este color según tus preferencias -->
+</resources>

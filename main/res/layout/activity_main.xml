@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnMonday"
+            style="@style/MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Botón de lunes"/>
+
+        <Button
+            android:id="@+id/btnTuesday"
+            style="@style/MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Botón de martes"/>
+
+        <Button
+            android:id="@+id/btnWednesday"
+            style="@style/MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Botón de miercoles"/>
+
+        <Button
+            android:id="@+id/btnThursday"
+            style="@style/MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Botón de jueves"/>
+
+        <Button
+            android:id="@+id/btnFriday"
+            style="@style/MenuButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:contentDescription="Botón de viernes"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <ImageButton
+            android:id="@+id/btnPreviousWeek"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_media_previous"
+            android:background="@drawable/circular_button"
+            android:contentDescription="Previous week"/>
+
+        <TextView
+            android:id="@+id/tvWeekInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Semana actual"
+            android:layout_marginHorizontal="16dp"/>
+
+        <ImageButton
+            android:id="@+id/btnNextWeek"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_media_next"
+            android:background="@drawable/circular_button"
+            android:contentDescription="Next week"/>
+
+    </LinearLayout>
+</LinearLayout>
