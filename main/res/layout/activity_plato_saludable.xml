@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo"
+        android:scaleType="centerCrop"
+        android:contentDescription="Fondo de verduras"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:text="PLATO SALUDABLE"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_background_layout2"
+                android:padding="13dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_background_layout"
+                android:padding="6dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El método del plato saludable es una guía visual para crear comidas balanceadas: la mitad del plato debe llenarse con vegetales y frutas, un cuarto con proteínas saludables (como pescado, pollo, legumbres) y el otro cuarto con granos o cereales integrales (como arroz integral, quinoa, fideos). "
+                android:textSize="18sp"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:layout_marginTop="7dp"
+                android:layout_marginBottom="7dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/platosaludable"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:contentDescription="Diagrama del Plato Saludable"/>
+
+        </LinearLayout>
+
+            <!-- Botón de retroceso -->
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/izquierda"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="Volver a pagina recetas"
+                android:scaleType="fitCenter"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
