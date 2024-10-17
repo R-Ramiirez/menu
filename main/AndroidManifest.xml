@@ -34,6 +34,26 @@
             android:exported="false">
         </activity>
 
+        <activity
+            android:name=".RecipeSelectionActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".ConsejosPracticosActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".DietasEspecialesActivity"
+            android:exported="false">
+        </activity>
+
+        <activity
+            android:name=".PlatoSaludableActivity"
+            android:exported="false">
+        </activity>
+
     </application>
 
 </manifest>
