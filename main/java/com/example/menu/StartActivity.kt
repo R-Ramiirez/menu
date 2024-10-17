@@ -17,7 +17,7 @@ class StartActivity : AppCompatActivity() {
         setContentView(R.layout.activity_start)
 
         Log.d("StartActivity", "onCreate called")
-
+ 
         val btnPrimer = findViewById<Button>(R.id.btnPrimer)
         val btnSegundo = findViewById<Button>(R.id.btnSegundo)
         val btnTercero = findViewById<Button>(R.id.btnTercero)
